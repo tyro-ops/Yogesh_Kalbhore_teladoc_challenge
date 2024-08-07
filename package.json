@@ -1,0 +1,23 @@
+{
+  "name": "yogesh_kalbhore_teladoc_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.46.0",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^6.0.0",
+    "playwright": "^1.46.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "allure-playwright": "^3.0.0-beta.9",
+    "ts-node": "^10.9.2"
+  }
+}

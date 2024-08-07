@@ -1,0 +1,13 @@
+{
+    "addUserButton": "button[ng-click='pop()']",
+    "firstNameInput": "input[ng-model='FirstName']",
+    "lastNameInput": "input[ng-model='LastName']",
+    "userNameInput": "input[ng-model='UserName']",
+    "passwordInput": "input[ng-model='Password']",
+    "emailInput": "input[ng-model='Email']",
+    "phoneInput": "input[ng-model='Phone']",
+    "saveButton": "button[ng-click='save(user)']",
+    "deleteButton": "button[ng-click='delUser($index)']",
+    "confirmDeleteButton": "button[class='btn btn-danger']"
+  }
+  

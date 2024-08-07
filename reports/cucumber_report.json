@@ -1,0 +1,135 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-user;add-a-user-and-validate-the-user-has-been-added-to-the-table",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add a user and validate the user has been added to the table",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the web application for adding a user",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to the users page for adding a user",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I add a new user",
+            "match": {
+              "location": "src/steps/addUser.steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the user in the table",
+            "match": {
+              "location": "src/steps/addUser.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add User",
+    "tags": [],
+    "uri": "src/tests/features/addUser.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "delete-user;delete-the-user-\"novak\"-from-the-table-and-validate-the-user-has-been-deleted",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Delete the user \"novak\" from the table and validate the user has been deleted",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the web application for deleting a user",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to the users page for deleting a user",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I delete the user \"novak\"",
+            "match": {
+              "location": "src/steps/deleteUser.steps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should not see the user \"novak\" in the table",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "delete-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Delete User",
+    "tags": [],
+    "uri": "src/tests/features/deleteUser.feature"
+  }
+]
